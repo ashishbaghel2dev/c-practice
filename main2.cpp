@@ -12,7 +12,7 @@ public:
 };
 
 int main() {
-    int age = 8;
+    int age = 18;
 
     try {
         if(age == 18) {
@@ -20,7 +20,7 @@ int main() {
         }
         cout << age;
     }
-    catch(const myexp& e) {
+    catch(const myexp e) {
         e.geterror();  
     }
 
